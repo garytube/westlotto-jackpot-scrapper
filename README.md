@@ -1,0 +1,1 @@
+# westlotto-jackpot-scrapper
