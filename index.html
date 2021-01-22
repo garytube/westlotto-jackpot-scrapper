@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>West Lotto Jackport</title>
+</head>
+
+<body>
+  <h2>Scraping jackpot 🤑 https://www.westlotto.de/</h2>
+  <pre><code>
+
+  </code></pre>
+
+  <script defer>
+    fetch('/api')
+      .then(res => res.json())
+      .then(data => {
+        document.querySelector('code').innerText = JSON.stringify(data, null, 2)
+      })
+      .catch(e => console.log(e))
+
+  </script>
+
+</body>
+
+</html>
